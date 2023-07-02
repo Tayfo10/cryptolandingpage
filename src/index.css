@@ -1,0 +1,145 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.93);
+  width: 100vw;
+}
+
+#body {
+  margin: 0;
+}
+
+.part1 {
+  height: 53vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: relative;
+  top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.navmenu {
+  position: relative;
+  right: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navmenu h2 {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+#joinus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 2rem;
+  width: 6rem;
+  margin-right: 2rem;
+  left: 2rem;
+  color: #ff00e5;
+  border: 2px solid white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.landingpage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50rem;
+  margin: 2rem auto;
+  align-items: center;
+}
+
+.landingpage h1 {
+  margin: 0.7rem auto;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.landingpage h1:hover {
+
+}
+
+.landingpage p {
+  position: relative;
+  font-size: 1.1rem;
+  width: 29rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.call {
+  display: flex;
+  height: 4rem;
+  width: 20rem;
+  margin-top: 2rem;
+  border: 2px solid white;
+  border-radius: 32px;
+  background-color: black;
+}
+
+.call input {
+  position: relative;
+  margin-left: 1rem;
+  top: 0.5rem;
+  border: none;
+  outline: none;
+  height: 2.8rem;
+  background-color: black;
+  color: white;
+}
+
+.call button {
+  background-color: #ff00e5;
+  color: #ffffff;
+  border-radius: 30px;
+  margin: 0.2rem auto;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+
+.copyright {
+  position: relative;
+  font-size: 10px;
+  right: 45rem;
+  color: white;
+  transform: rotate(-90deg);
+  margin-left: 1rem;
+}
+
+.part2 {
+  height: 47vh;
+}
+
+.hamburger {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .hamburger {
+    display: flex;
+    visibility: visible;
+  }
+  .nav-btn {
+  }
+
+  .navmenu {
+    display: none;
+    visibility: hidden;
+  }
+}
